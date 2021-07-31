@@ -1,0 +1,163 @@
+/* Sets the parameters for the web page */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    /* Sets the background color for the overall page */
+    background-color: #d9dcd6;
+}
+
+header {
+    padding: 20px;
+    /* Sets the font for the header */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* Sets the background color for the header */
+    background-color: #2a607c;
+    /* Sets the color for the header text */
+    color: #ffffff;
+}
+
+header h1 {
+    /* Defines the display style for the h1 tag */
+    display: inline-block;
+    /* Sets the font size for the header */
+    font-size: 48px;
+}
+
+header h1 .seo {
+    /* Sets the color for the letters that have the 'seo' class in the h1 tag */
+    color: #d9dcd6;
+}
+
+header nav {
+    /* Sets padding to the top of 15px */
+    padding-top: 15px;
+    /* Sets margin to the right of 20px */
+    margin-right: 20px;
+    /* Floats content to the right*/
+    float: right;
+    /* Sets font family*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* Sets the font size to 20px */
+    font-size: 20px;
+}
+
+header nav ul {
+    /* Sets the list style */
+    list-style-type: none;
+}
+
+header nav ul li {
+    /* Sets the display for the lust items */
+    display: inline-block;
+    /* Set margin to the left of 25px */
+    margin-left: 25px;
+}
+
+a {
+    /* Sets color text */
+    color: #ffffff;
+    /* Removes text decoration */
+    text-decoration: none;
+}
+
+p {
+    /* Sets font size */
+    font-size: 16px;
+}
+
+.hero {
+    /* Sets and displays the hero image */
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+main {
+    /* Sets parameters */
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+article {
+    /* Sets article properties */
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.article img{
+    /* Sets the height for the article image */
+    max-height: 200px;  
+}
+
+.article h2 {
+    /* Sets the h2 bottom margin to 20px */
+    margin-bottom: 20px;
+    /* Sets the h2 font size to 36px */
+    font-size: 36px;
+}
+
+.float-left {
+    /* Floats left */
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    /* Floats right */
+    float: right;
+    margin-left: 25px;
+}
+
+aside {
+    /* Sets side bar */
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+.section {
+    /* Sets the bottom margin to 32px */
+
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+aside h3 {
+    /* Sets sidebar h3 bottom margin to 10px */
+    margin-bottom: 10px;
+    /* Sets sidebar h3 to center */
+    text-align: center;
+}
+
+aside img {
+    /* Sets and displays the sidebar image */
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+footer {
+    /* Sets and displays the footer */
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
