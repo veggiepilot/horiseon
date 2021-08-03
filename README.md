@@ -14,7 +14,7 @@ The following changes were made:
 
 After implementing the suggested changes, we tested the site to ensure it still maintained appearance and functionality:
 
-![The Horiseon webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page.](./Develop/assets/images/horiseon-webpage.png)
+![The Horiseon webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page.](./assets/images/horiseon-webpage.png)
 
 The refactored code can be found in the provided folders.
 
